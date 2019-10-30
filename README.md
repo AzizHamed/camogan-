@@ -27,6 +27,11 @@ git clone LINK
 cd camogan
 ```
 - Install prerequisites
+Please note that this will install keras 2.0.8 and tensorflow-gpu 1.14.0.
 ```
 pip3 install -r requirements.txt
+```
+- Put background images in camogan/backgrounds (optionally download the ones used in the paper)
+```
+wget https://www.dropbox.com/s/cmvjz4r02vzvjkv/treebark_ash_cropped15.zip -P ./backgrounds
 ```
