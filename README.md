@@ -9,7 +9,7 @@ CamoGAN uses Generative Adversarial Networks to simulate an evolutionary arms ra
 
 ## Prerequisites
 Hardware
-- Nvidia GPU
+- Nvidia GPU with CUDA
 
 OS
 - Linux
