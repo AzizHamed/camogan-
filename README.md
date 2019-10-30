@@ -32,5 +32,5 @@ pip3 install -r requirements.txt
 ```
 - Put background images in camogan/backgrounds (optionally download the ones used in the paper)
 ```
-wget https://www.dropbox.com/s/cmvjz4r02vzvjkv/treebark_ash_cropped15.zip -P ./backgrounds
+wget https://www.dropbox.com/s/cmvjz4r02vzvjkv/treebark_ash_cropped15.zip -P ./backgrounds/
 ```
