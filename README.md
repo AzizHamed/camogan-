@@ -9,16 +9,16 @@ OS
 - Linux
 
 Python 3 libraries
-- keras (tested with version 2.0.8)
-- matplotlib
-- numpy
-- opencv-python
-- Pillow
-- tensorflow-gpu (tested with version 1.4 and 1.14)
+- [keras](https://keras.io/) (tested with version 2.0.8)
+- [matplotlib](https://pypi.org/project/matplotlib/)
+- [numpy](https://pypi.org/project/numpy/)
+- [opencv-python](https://pypi.org/project/opencv-python/)
+- [Pillow](https://pypi.org/project/Pillow/)
+- [tensorflow-gpu](https://www.tensorflow.org/install/gpu) (tested with version 1.4 and 1.14)
 
 Nvidia libraries
-- CUDA
-- cuDNN
+- [CUDA](https://developer.nvidia.com/cuda-toolkit)
+- [cuDNN](https://developer.nvidia.com/cudnn)
 
 ## Getting started
 - Clone this repo
