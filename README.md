@@ -21,10 +21,12 @@ Nvidia libraries
 - cuDNN
 
 ## Getting started
-- Clone this repo:
+- Clone this repo
 ```
 git clone LINK
 cd camogan
 ```
 - Install prerequisites
-`pip3 install -r requirements.txt`
+```
+pip3 install -r requirements.txt
+```
