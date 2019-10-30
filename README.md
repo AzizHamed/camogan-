@@ -26,8 +26,7 @@ Nvidia libraries
 git clone LINK
 cd camogan
 ```
-- Install prerequisites
-Please note that this will install keras 2.0.8 and tensorflow-gpu 1.14.0.
+- Install prerequisites (note: that this will install a specific version of Keras - 2.0.8 - and tensorflow-gpu - 1.14.0)
 ```
 pip3 install -r requirements.txt
 ```
