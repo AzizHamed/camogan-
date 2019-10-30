@@ -30,7 +30,13 @@ cd camogan
 ```
 pip3 install -r requirements.txt
 ```
-- Put background images in camogan/backgrounds (optionally download the ones used in the paper)
+- Put background images in /backgrounds (optionally download the ones used in the paper)
 ```
 wget https://www.dropbox.com/s/cmvjz4r02vzvjkv/treebark_ash_cropped15.zip -P ./backgrounds/
 ```
+- Set up paths and variables in options.py
+- Train the model
+```
+python3 camogan.py
+```
+- Note: on rare occasions, we have seen the GAN get stuck in local minima in the beginning and no learning happens; in this case terminate and restart the script
