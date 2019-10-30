@@ -5,6 +5,7 @@ CamoGAN uses Generative Adversarial Networks to simulate an evolutionary arms ra
 [Paper](https://www.biorxiv.org/content/10.1101/429092v2)
 
 ## Prerequisites
+OS
 - Linux
 
 Python 3 libraries
