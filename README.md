@@ -38,6 +38,7 @@ pip3 install -r requirements.txt
 ```
 - Put background images in /backgrounds (optionally download the ones used in the paper)
 ```
+mkdir ./backgrounds
 wget https://www.dropbox.com/s/cmvjz4r02vzvjkv/treebark_ash_cropped15.zip -P ./backgrounds/
 unzip ./backgrounds/treebark_ash_cropped15.zip -d ./backgrounds/
 rm ./backgrounds/treebark_ash_cropped15.zip
