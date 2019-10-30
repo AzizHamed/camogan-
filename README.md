@@ -23,6 +23,6 @@ Nvidia libraries
 ## Getting started
 - Clone this repo:
 ```git clone LINK
-`cd camogan```
+cd camogan```
 - Install prerequisites
 `pip3 install -r requirements.txt`
