@@ -45,9 +45,9 @@ python3 camogan.py
 
 ## Citation
 If you use this code for your research, please cite our paper
-'''
+```
 Talas, L., Fennell, J.G., Kjernsmo, K., Cuthill, I.C., Scott-Samuel, N.E. & Baddeley, R.J. CamoGAN: Evolving optimum camouflage with Generative Adversarial Networks. Methods in Ecology and Evolution.
-'''
+```
 
 ## Acknowlegments
 Our code is inspired by [DCGAN on MNIST using Keras](https://github.com/roatienza/Deep-Learning-Experiments/blob/master/Experiments/Tensorflow/GAN/dcgan_mnist.py).
