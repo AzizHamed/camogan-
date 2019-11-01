@@ -29,7 +29,7 @@ Python 3 libraries
 ## Getting started
 - Clone this repo
 ```
-git clone git clone https://gitlab.com/asb-lab/camogan.git
+git clone https://gitlab.com/asb-lab/camogan.git
 cd camogan
 ```
 - Install prerequisites (note: that this will install a specific version of Keras - 2.0.8 - and tensorflow-gpu - 1.14.0)
