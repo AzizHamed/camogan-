@@ -277,6 +277,9 @@ if __name__ == '__main__':
             samples_empty[counter,:,:,:] = im[sample_x:sample_x+imsize,sample_y:sample_y+imsize,:]
             mask_holder[counter,:,:,:] = mask
             counter = counter + 1
+    # create folder for output if it does not exist
+    if not os.path.exists(dir_output):
+        os.makedirs(dir_output)
 
     # train network and print out images
     camo_dcgan = CAMO_DCGAN()

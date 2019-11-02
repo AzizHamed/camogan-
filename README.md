@@ -14,6 +14,9 @@ Hardware
 OS
 - Linux
 
+Linux packages
+- [graphviz](https://graphviz.gitlab.io/download/)
+
 Nvidia libraries
 - [CUDA](https://developer.nvidia.com/cuda-toolkit)
 - [cuDNN](https://developer.nvidia.com/cudnn)
@@ -24,6 +27,7 @@ Python 3 libraries
 - [numpy](https://pypi.org/project/numpy/)
 - [opencv-python](https://pypi.org/project/opencv-python/)
 - [Pillow](https://pypi.org/project/Pillow/)
+- [pydot](https://pypi.org/project/pydot/)
 - [tensorflow-gpu](https://www.tensorflow.org/install/gpu) (tested with version 1.4 and 1.14)
 
 ## Getting started
@@ -34,6 +38,7 @@ cd camogan
 ```
 - Install prerequisites (note: that this will install a specific version of Keras - 2.0.8 - and tensorflow-gpu - 1.14.0)
 ```
+sudo apt install graphviz
 pip3 install -r requirements.txt
 ```
 - Put background images in /backgrounds (optionally download the ones used in the paper)
@@ -53,7 +58,7 @@ python3 camogan.py
 ## Citation
 If you use this code for your research, please cite our paper
 ```
-Talas, L., Fennell, J.G., Kjernsmo, K., Cuthill, I.C., Scott-Samuel, N.E. & Baddeley, R.J. CamoGAN: Evolving optimum camouflage with Generative Adversarial Networks. Methods in Ecology and Evolution.
+Talas, L., Fennell, J.G., Kjernsmo, K., Cuthill, I.C., Scott-Samuel, N.E. & Baddeley, R.J. CamoGAN: Evolving optimum camouflage with Generative Adversarial Networks. Methods in Ecology and Evolution. (Accepted).
 ```
 
 ## Acknowlegments

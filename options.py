@@ -1,7 +1,7 @@
 # paths
 dir_backgrounds = "./backgrounds/treebark_cropped15/" # path to background images
 mask_name = './mask_triangle.tiff' # path to mask
-dir_output = './output/' # path to output
+dir_output = './output/' # path to output (will be created if it does not exist)
 
 # image variables
 sample_per_im = 32 # number of background samples per image
@@ -9,8 +9,8 @@ imsize = 256 # crop size from the background image
 targetsize = [int(imsize/8),int(imsize/4)] # size of the target
 resize_factor = 1 # resize background image before cropping
 ts = 10000 # number of training steps
-bs = 32 # batch size
-n_gpu = 2 # number of GPUs to use (in its current form, the script requires 2 GPUs with ~11 GB memory to run)
+bs = 16 # batch size
+n_gpu = 1 # number of GPUs to use
 
 # discriminator variables
 depth_DM = 64
