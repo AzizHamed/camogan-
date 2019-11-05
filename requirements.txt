@@ -2,5 +2,6 @@ matplotlib
 numpy
 opencv-python
 Pillow
+pydot
 tensorflow-gpu==1.14.0
 keras==2.0.8
